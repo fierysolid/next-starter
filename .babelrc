@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "styled-jsx": {
+          "plugins": ["styled-jsx-plugin-sass"]
+        }
+      }
+    ],
+    "@zeit/next-typescript/babel"
+  ],
+  "plugins": ["inline-react-svg"]
+}
